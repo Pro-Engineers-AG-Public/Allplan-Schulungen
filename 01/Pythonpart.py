@@ -20,8 +20,6 @@ def check_allplan_version(build_ele, version):
     # Delete unused arguments
     del build_ele
 
-    print(version)
-
     for item in VALID_ALLPLAN_VERSIONS:
         if str(item) in version:
             return True
