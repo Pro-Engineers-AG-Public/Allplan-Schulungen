@@ -1,0 +1,25 @@
+{
+    "folders": [
+        {
+            "path": "C:\\ProgramData\\Nemetschek\\Allplan\\2023\\Etc\\PythonPartsScripts\\ProEngineers\\CableCart",
+            "name": "Allplan 2023"
+        },
+        {
+            "path": "C:\\ProgramData\\Nemetschek\\Allplan\\2023\\Etc\\Library\\PythonParts\\ProEngineers",
+            "name": "Library"
+        }
+    ],
+    "settings": {},
+    "launch": {
+        "version": "0.2.0",
+        "configurations": [
+            {
+                "name": "Attach to Allplan",
+                "port": 5678,
+                "host": "localhost",
+                "request": "attach",
+                "type": "python"
+            }
+        ]
+    }
+}
